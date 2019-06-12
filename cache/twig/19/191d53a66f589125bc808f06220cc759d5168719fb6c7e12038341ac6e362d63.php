@@ -64,21 +64,20 @@ class __TwigTemplate_a0a269e65a7c1bf9d209bfd2538f8abd4c56d6f75899cfc729a9b2c938d
         }
         // line 19
         echo "<aside class=\"widget widget_categories\">
-\t<h1 class=\"widget-title\">Some Text Widget</h1>
-\t<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+\t
 </aside>
 <aside class=\"widget widget_recent_entries\">
-\t<h1 class=\"widget-title\">Recent Posts</h1>
+\t
   <ul>
 ";
-        // line 26
+        // line 25
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute($this->getAttribute($this->getAttribute(($context["page"] ?? null), "find", [0 => "/blog"], "method"), "children", []), "order", [0 => "date", 1 => "desc"], "method"), "slice", [0 => 0, 1 => 5], "method"));
         foreach ($context['_seq'] as $context["_key"] => $context["post"]) {
-            // line 27
+            // line 26
             echo "    <li>
       <a href=\"";
-            // line 28
+            // line 27
             echo $this->getAttribute($context["post"], "url", []);
             echo "\">";
             echo $this->getAttribute($context["post"], "title", []);
@@ -89,34 +88,34 @@ class __TwigTemplate_a0a269e65a7c1bf9d209bfd2538f8abd4c56d6f75899cfc729a9b2c938d
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['post'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 31
+        // line 30
         echo "</ul>
 </aside>
 ";
-        // line 33
+        // line 32
         if ($this->getAttribute($this->getAttribute($this->getAttribute(($context["config"] ?? null), "plugins", []), "taxonomylist", []), "enabled", [])) {
-            // line 34
+            // line 33
             echo "<aside class=\"widget widget_tag_cloud\">
     <h1 class=\"widget-title\">Popular Tags</h1>
     ";
+            // line 35
+            $this->loadTemplate("partials/taxonomylist.html.twig", "partials/sidebar.html.twig", 35)->display(twig_array_merge($context, ["taxonomy" => "tag"]));
             // line 36
-            $this->loadTemplate("partials/taxonomylist.html.twig", "partials/sidebar.html.twig", 36)->display(twig_array_merge($context, ["taxonomy" => "tag"]));
-            // line 37
             echo "</aside>
 ";
         }
-        // line 39
+        // line 38
         if ($this->getAttribute($this->getAttribute($this->getAttribute(($context["config"] ?? null), "plugins", []), "feed", []), "enabled", [])) {
-            // line 40
+            // line 39
             echo "<aside class=\"widget widget_meta\">
     <h1 class=\"widget-title\">Syndicate</h1>
     <ul>
       <li><a href=\"";
-            // line 43
+            // line 42
             echo ($context["feed_url"] ?? null);
             echo ".atom\">Atom 1.0</a></li>
       <li><a href=\"";
-            // line 44
+            // line 43
             echo ($context["feed_url"] ?? null);
             echo ".rss\">RSS</a></li>
     </ul>
@@ -137,7 +136,7 @@ class __TwigTemplate_a0a269e65a7c1bf9d209bfd2538f8abd4c56d6f75899cfc729a9b2c938d
 
     public function getDebugInfo()
     {
-        return array (  120 => 44,  116 => 43,  111 => 40,  109 => 39,  105 => 37,  103 => 36,  99 => 34,  97 => 33,  93 => 31,  82 => 28,  79 => 27,  75 => 26,  66 => 19,  60 => 16,  56 => 14,  54 => 13,  50 => 11,  48 => 10,  44 => 8,  42 => 7,  38 => 5,  36 => 4,  32 => 2,  30 => 1,);
+        return array (  119 => 43,  115 => 42,  110 => 39,  108 => 38,  104 => 36,  102 => 35,  98 => 33,  96 => 32,  92 => 30,  81 => 27,  78 => 26,  74 => 25,  66 => 19,  60 => 16,  56 => 14,  54 => 13,  50 => 11,  48 => 10,  44 => 8,  42 => 7,  38 => 5,  36 => 4,  32 => 2,  30 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -169,11 +168,10 @@ class __TwigTemplate_a0a269e65a7c1bf9d209bfd2538f8abd4c56d6f75899cfc729a9b2c938d
 </aside>
 {% endif %}
 <aside class=\"widget widget_categories\">
-\t<h1 class=\"widget-title\">Some Text Widget</h1>
-\t<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+\t
 </aside>
 <aside class=\"widget widget_recent_entries\">
-\t<h1 class=\"widget-title\">Recent Posts</h1>
+\t
   <ul>
 {% for post in page.find('/blog').children.order('date', 'desc').slice(0, 5) %}
     <li>

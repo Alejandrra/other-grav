@@ -17,11 +17,10 @@
 </aside>
 {% endif %}
 <aside class="widget widget_categories">
-	<h1 class="widget-title">Some Text Widget</h1>
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+	
 </aside>
 <aside class="widget widget_recent_entries">
-	<h1 class="widget-title">Recent Posts</h1>
+	
   <ul>
 {% for post in page.find('/blog').children.order('date', 'desc').slice(0, 5) %}
     <li>

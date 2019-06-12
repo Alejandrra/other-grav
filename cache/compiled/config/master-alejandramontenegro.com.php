@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1560318547,
-    'checksum' => '7eab4b959b73859974b0a18e266ea465',
+    'timestamp' => 1560344549,
+    'checksum' => 'b3b1dc6dd8c0c970ee04ca64c154b00b',
     'files' => [
         'user/config' => [
             'backups' => [
@@ -27,7 +27,7 @@ return [
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1512568072
+                'modified' => 1560344549
             ],
             'streams' => [
                 'file' => 'user/config/streams.yaml',
@@ -635,7 +635,7 @@ node_modules'
             'salt' => 'NMRTChdQsFiAtY'
         ],
         'site' => [
-            'title' => 'Grav',
+            'title' => 'Graficacion y Animacion',
             'default_lang' => 'en',
             'author' => [
                 'name' => 'Joe Bloggs',
