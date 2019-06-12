@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1560315762,
-    'checksum' => 'e7b5bdc13b24c1bed405eb5a86fce543',
+    'timestamp' => 1560318547,
+    'checksum' => '7eab4b959b73859974b0a18e266ea465',
     'files' => [
         'user/config' => [
             'backups' => [
@@ -12,6 +12,10 @@ return [
             'media' => [
                 'file' => 'user/config/media.yaml',
                 'modified' => 1560314120
+            ],
+            'plugins/email' => [
+                'file' => 'user/config/plugins/email.yaml',
+                'modified' => 1560318547
             ],
             'scheduler' => [
                 'file' => 'user/config/scheduler.yaml',
@@ -111,9 +115,9 @@ return [
             ],
             'email' => [
                 'enabled' => true,
-                'from' => NULL,
+                'from' => 'servertsystem@gmail.com',
                 'from_name' => NULL,
-                'to' => NULL,
+                'to' => 'servertsystem@gmail.com',
                 'to_name' => NULL,
                 'queue' => [
                     'enabled' => false,
@@ -122,13 +126,13 @@ return [
                     'flush_time_limit' => 100
                 ],
                 'mailer' => [
-                    'engine' => 'sendmail',
+                    'engine' => 'smtp',
                     'smtp' => [
-                        'server' => 'localhost',
-                        'port' => 25,
-                        'encryption' => 'none',
-                        'user' => '',
-                        'password' => ''
+                        'server' => 'smtp.gmail.com',
+                        'port' => 465,
+                        'encryption' => 'ssl',
+                        'user' => 'servertsystem@gmail.com',
+                        'password' => 'benghy.1219'
                     ],
                     'sendmail' => [
                         'bin' => '/usr/sbin/sendmail -bs'

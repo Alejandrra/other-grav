@@ -1,4 +1,0 @@
----
-title: 'Juego Ascensor'
----
-
