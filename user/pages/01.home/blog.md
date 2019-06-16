@@ -15,4 +15,3 @@ Se creo con el fin de presentarles tematicas y ejercicios practicos de la materi
   <strong>Repositorios en GitHub</strong>
 </a></center></p>
 
-<style> body{ background-color:#FFFCD4; } </style>
