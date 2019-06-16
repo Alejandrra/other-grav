@@ -1,37 +1,37 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledBlueprints',
-    'timestamp' => 1560322166,
-    'checksum' => '9d44f7965c0e562ba3f8eaa6cc444032',
+    'timestamp' => 1560700608,
+    'checksum' => '8b2845ba8c3db1515ca8aec78fa0b7ce',
     'files' => [
         'system/blueprints/config' => [
             'backups' => [
                 'file' => 'system/blueprints/config/backups.yaml',
-                'modified' => 1560314705
+                'modified' => 1560697880
             ],
             'media' => [
                 'file' => 'system/blueprints/config/media.yaml',
-                'modified' => 1560314705
+                'modified' => 1560697880
             ],
             'scheduler' => [
                 'file' => 'system/blueprints/config/scheduler.yaml',
-                'modified' => 1560314705
+                'modified' => 1560697880
             ],
             'security' => [
                 'file' => 'system/blueprints/config/security.yaml',
-                'modified' => 1560314705
+                'modified' => 1560697880
             ],
             'site' => [
                 'file' => 'system/blueprints/config/site.yaml',
-                'modified' => 1560314705
+                'modified' => 1560697880
             ],
             'streams' => [
                 'file' => 'system/blueprints/config/streams.yaml',
-                'modified' => 1560314705
+                'modified' => 1560697880
             ],
             'system' => [
                 'file' => 'system/blueprints/config/system.yaml',
-                'modified' => 1560314705
+                'modified' => 1560697880
             ]
         ],
         'user/plugins' => [
@@ -50,6 +50,10 @@ return [
             'plugins/login' => [
                 'file' => 'user/plugins/login/blueprints.yaml',
                 'modified' => 1560314735
+            ],
+            'plugins/ganalytics' => [
+                'file' => 'user/plugins/ganalytics/blueprints.yaml',
+                'modified' => 1560383909
             ],
             'plugins/form' => [
                 'file' => 'user/plugins/form/blueprints.yaml',
@@ -558,7 +562,7 @@ return [
             ],
             'site.summary.size' => [
                 'type' => 'text',
-                'size' => 'x-small',
+                'size' => 'small',
                 'append' => 'PLUGIN_ADMIN.CHARACTERS',
                 'label' => 'PLUGIN_ADMIN.SUMMARY_SIZE',
                 'validate' => [
@@ -3313,6 +3317,215 @@ return [
                 'name' => 'plugins.login.tabs',
                 'validation' => 'loose'
             ],
+            'plugins.ganalytics' => [
+                'type' => '_root',
+                'form_field' => false,
+                'form' => [
+                    'validation' => 'strict'
+                ]
+            ],
+            'plugins.ganalytics.enabled' => [
+                'type' => 'toggle',
+                'label' => 'PLUGIN_GANALYTICS.PLUGIN_STATUS',
+                'hightlight' => 1,
+                'default' => 0,
+                'options' => [
+                    1 => 'PLUGIN_GANALYTICS.ENABLED',
+                    0 => 'PLUGIN_GANALYTICS.DISABLED'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.ganalytics.enabled',
+                'validation' => 'strict'
+            ],
+            'plugins.ganalytics.trackingId' => [
+                'type' => 'text',
+                'size' => 'medium',
+                'label' => 'PLUGIN_GANALYTICS.TACKING_ID',
+                'validate' => [
+                    'required' => true
+                ],
+                'name' => 'plugins.ganalytics.trackingId',
+                'validation' => 'strict'
+            ],
+            'plugins.ganalytics.position' => [
+                'type' => 'toggle',
+                'label' => 'PLUGIN_GANALYTICS.POSITION',
+                'hightlight' => 1,
+                'default' => 'head',
+                'options' => [
+                    'head' => 'PLUGIN_GANALYTICS.POSITION_HEAD',
+                    'body' => 'PLUGIN_GANALYTICS.POSITION_BODY'
+                ],
+                'validate' => [
+                    'type' => 'string'
+                ],
+                'name' => 'plugins.ganalytics.position',
+                'validation' => 'strict'
+            ],
+            'plugins.ganalytics.objectName' => [
+                'type' => 'text',
+                'label' => 'PLUGIN_GANALYTICS.OBJECT_NAME',
+                'size' => 'small',
+                'default' => 'ga',
+                'name' => 'plugins.ganalytics.objectName',
+                'validation' => 'strict'
+            ],
+            'plugins.ganalytics.async' => [
+                'type' => 'toggle',
+                'label' => 'PLUGIN_GANALYTICS.ASYNC',
+                'hightlight' => 1,
+                'default' => 0,
+                'options' => [
+                    1 => 'PLUGIN_GANALYTICS._YES',
+                    0 => 'PLUGIN_GANALYTICS._NO'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.ganalytics.async',
+                'validation' => 'strict'
+            ],
+            'plugins.ganalytics.forceSsl' => [
+                'type' => 'toggle',
+                'label' => 'PLUGIN_GANALYTICS.FORCE_SSL',
+                'hightlight' => 1,
+                'default' => 0,
+                'options' => [
+                    1 => 'PLUGIN_GANALYTICS._YES',
+                    0 => 'PLUGIN_GANALYTICS._NO'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.ganalytics.forceSsl',
+                'validation' => 'strict'
+            ],
+            'plugins.ganalytics.anonymizeIp' => [
+                'type' => 'toggle',
+                'label' => 'PLUGIN_GANALYTICS.ANONYMIZE_IP',
+                'hightlight' => 1,
+                'default' => 0,
+                'options' => [
+                    1 => 'PLUGIN_GANALYTICS._YES',
+                    0 => 'PLUGIN_GANALYTICS._NO'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.ganalytics.anonymizeIp',
+                'validation' => 'strict'
+            ],
+            'plugins.ganalytics.blockedIps' => [
+                'type' => 'array',
+                'size' => 'large',
+                'label' => 'PLUGIN_GANALYTICS.BLOCKED_IPS',
+                'value_only' => true,
+                'name' => 'plugins.ganalytics.blockedIps',
+                'validation' => 'strict'
+            ],
+            'plugins.ganalytics.advanced' => [
+                'type' => 'section',
+                'underline' => true,
+                'name' => 'plugins.ganalytics.advanced',
+                'validation' => 'strict'
+            ],
+            'plugins.ganalytics.configuration' => [
+                'type' => 'tab',
+                'name' => 'plugins.ganalytics.configuration',
+                'validation' => 'strict'
+            ],
+            'plugins.ganalytics.cookieConfig' => [
+                'type' => 'toggle',
+                'label' => 'PLUGIN_GANALYTICS.COOKIE_CONFIG',
+                'hightlight' => 1,
+                'default' => 0,
+                'options' => [
+                    1 => 'PLUGIN_GANALYTICS._YES',
+                    0 => 'PLUGIN_GANALYTICS._NO'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.ganalytics.cookieConfig',
+                'validation' => 'strict'
+            ],
+            'plugins.ganalytics.cookieName' => [
+                'type' => 'text',
+                'label' => 'PLUGIN_GANALYTICS.COOKIE_NAME',
+                'size' => 'small',
+                'default' => '_ga',
+                'name' => 'plugins.ganalytics.cookieName',
+                'validation' => 'strict'
+            ],
+            'plugins.ganalytics.cookieDomain' => [
+                'type' => 'text',
+                'label' => 'PLUGIN_GANALYTICS.COOKIE_DOMAIN',
+                'size' => 'medium',
+                'name' => 'plugins.ganalytics.cookieDomain',
+                'validation' => 'strict'
+            ],
+            'plugins.ganalytics.cookieExpires' => [
+                'type' => 'text',
+                'size' => 'small',
+                'label' => 'PLUGIN_GANALYTICS.COOKIE_EXPIRES',
+                'append' => 'PLUGIN_GANALYTICS.SECONDS',
+                'default' => 63072000,
+                'validate' => [
+                    'type' => 'number',
+                    'min' => 0
+                ],
+                'name' => 'plugins.ganalytics.cookieExpires',
+                'validation' => 'strict'
+            ],
+            'plugins.ganalytics.cookie' => [
+                'type' => 'tab',
+                'name' => 'plugins.ganalytics.cookie',
+                'validation' => 'strict'
+            ],
+            'plugins.ganalytics.debugStatus' => [
+                'type' => 'toggle',
+                'label' => 'PLUGIN_GANALYTICS.DEBUG_STATUS',
+                'hightlight' => 1,
+                'default' => 0,
+                'options' => [
+                    1 => 'PLUGIN_GANALYTICS.ENABLED',
+                    0 => 'PLUGIN_GANALYTICS.DISABLED'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.ganalytics.debugStatus',
+                'validation' => 'strict'
+            ],
+            'plugins.ganalytics.debugTrace' => [
+                'type' => 'toggle',
+                'label' => 'PLUGIN_GANALYTICS.DEBUG_TRACE',
+                'hightlight' => 1,
+                'default' => 0,
+                'options' => [
+                    1 => 'PLUGIN_GANALYTICS.ENABLED',
+                    0 => 'PLUGIN_GANALYTICS.DISABLED'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.ganalytics.debugTrace',
+                'validation' => 'strict'
+            ],
+            'plugins.ganalytics.debug' => [
+                'type' => 'tab',
+                'name' => 'plugins.ganalytics.debug',
+                'validation' => 'strict'
+            ],
+            'plugins.ganalytics.tabs' => [
+                'type' => 'tabs',
+                'active' => 1,
+                'class' => 'subtle',
+                'name' => 'plugins.ganalytics.tabs',
+                'validation' => 'strict'
+            ],
             'plugins.form' => [
                 'type' => '_root',
                 'form_field' => false,
@@ -4639,6 +4852,27 @@ return [
                     'max_login_count' => 'plugins.login.max_login_count',
                     'max_login_interval' => 'plugins.login.max_login_interval',
                     'ipv6_subnet_size' => 'plugins.login.ipv6_subnet_size'
+                ],
+                'ganalytics' => [
+                    'tabs' => 'plugins.ganalytics.tabs',
+                    'configuration' => 'plugins.ganalytics.configuration',
+                    'enabled' => 'plugins.ganalytics.enabled',
+                    'trackingId' => 'plugins.ganalytics.trackingId',
+                    'advanced' => 'plugins.ganalytics.advanced',
+                    'position' => 'plugins.ganalytics.position',
+                    'objectName' => 'plugins.ganalytics.objectName',
+                    'async' => 'plugins.ganalytics.async',
+                    'forceSsl' => 'plugins.ganalytics.forceSsl',
+                    'anonymizeIp' => 'plugins.ganalytics.anonymizeIp',
+                    'blockedIps' => 'plugins.ganalytics.blockedIps',
+                    'cookie' => 'plugins.ganalytics.cookie',
+                    'cookieConfig' => 'plugins.ganalytics.cookieConfig',
+                    'cookieName' => 'plugins.ganalytics.cookieName',
+                    'cookieDomain' => 'plugins.ganalytics.cookieDomain',
+                    'cookieExpires' => 'plugins.ganalytics.cookieExpires',
+                    'debug' => 'plugins.ganalytics.debug',
+                    'debugStatus' => 'plugins.ganalytics.debugStatus',
+                    'debugTrace' => 'plugins.ganalytics.debugTrace'
                 ],
                 'form' => [
                     'enabled' => 'plugins.form.enabled',

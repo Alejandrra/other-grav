@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/var/www/html/grav/system/blueprints/config/site.yaml',
-    'modified' => 1560314705,
+    'modified' => 1560697880,
     'data' => [
         'title' => 'PLUGIN_ADMIN.SITE',
         'form' => [
@@ -74,7 +74,7 @@ return [
                         ],
                         'summary.size' => [
                             'type' => 'text',
-                            'size' => 'x-small',
+                            'size' => 'small',
                             'append' => 'PLUGIN_ADMIN.CHARACTERS',
                             'label' => 'PLUGIN_ADMIN.SUMMARY_SIZE',
                             'help' => 'PLUGIN_ADMIN.SUMMARY_SIZE_HELP',

@@ -1,165 +1,165 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledLanguages',
-    'timestamp' => 1560314736,
-    'checksum' => 'e3a9ccf7a12c2752ad3616863f3f75bd',
+    'timestamp' => 1560697887,
+    'checksum' => '3aacc9d1799cd4fda3088504fc92a69b',
     'files' => [
         'system/languages' => [
             'ar' => [
                 'file' => 'system/languages/ar.yaml',
-                'modified' => 1560314705
+                'modified' => 1560697880
             ],
             'bg' => [
                 'file' => 'system/languages/bg.yaml',
-                'modified' => 1560314705
+                'modified' => 1560697880
             ],
             'ca' => [
                 'file' => 'system/languages/ca.yaml',
-                'modified' => 1560314705
+                'modified' => 1560697880
             ],
             'cs' => [
                 'file' => 'system/languages/cs.yaml',
-                'modified' => 1560314705
+                'modified' => 1560697880
             ],
             'da' => [
                 'file' => 'system/languages/da.yaml',
-                'modified' => 1560314705
+                'modified' => 1560697880
             ],
             'de' => [
                 'file' => 'system/languages/de.yaml',
-                'modified' => 1560314705
+                'modified' => 1560697880
             ],
             'el' => [
                 'file' => 'system/languages/el.yaml',
-                'modified' => 1560314705
+                'modified' => 1560697880
             ],
             'en' => [
                 'file' => 'system/languages/en.yaml',
-                'modified' => 1560314705
+                'modified' => 1560697880
             ],
             'es' => [
                 'file' => 'system/languages/es.yaml',
-                'modified' => 1560314705
+                'modified' => 1560697880
             ],
             'et' => [
                 'file' => 'system/languages/et.yaml',
-                'modified' => 1560314705
+                'modified' => 1560697880
             ],
             'eu' => [
                 'file' => 'system/languages/eu.yaml',
-                'modified' => 1560314705
+                'modified' => 1560697880
             ],
             'fa' => [
                 'file' => 'system/languages/fa.yaml',
-                'modified' => 1560314705
+                'modified' => 1560697880
             ],
             'fi' => [
                 'file' => 'system/languages/fi.yaml',
-                'modified' => 1560314705
+                'modified' => 1560697880
             ],
             'fr' => [
                 'file' => 'system/languages/fr.yaml',
-                'modified' => 1560314705
+                'modified' => 1560697880
             ],
             'he' => [
                 'file' => 'system/languages/he.yaml',
-                'modified' => 1560314705
+                'modified' => 1560697880
             ],
             'hr' => [
                 'file' => 'system/languages/hr.yaml',
-                'modified' => 1560314705
+                'modified' => 1560697880
             ],
             'hu' => [
                 'file' => 'system/languages/hu.yaml',
-                'modified' => 1560314705
+                'modified' => 1560697880
             ],
             'id' => [
                 'file' => 'system/languages/id.yaml',
-                'modified' => 1560314705
+                'modified' => 1560697880
             ],
             'is' => [
                 'file' => 'system/languages/is.yaml',
-                'modified' => 1560314705
+                'modified' => 1560697880
             ],
             'it' => [
                 'file' => 'system/languages/it.yaml',
-                'modified' => 1560314705
+                'modified' => 1560697880
             ],
             'ja' => [
                 'file' => 'system/languages/ja.yaml',
-                'modified' => 1560314705
+                'modified' => 1560697880
             ],
             'ko' => [
                 'file' => 'system/languages/ko.yaml',
-                'modified' => 1560314705
+                'modified' => 1560697880
             ],
             'lt' => [
                 'file' => 'system/languages/lt.yaml',
-                'modified' => 1560314705
+                'modified' => 1560697880
             ],
             'nb' => [
                 'file' => 'system/languages/nb.yaml',
-                'modified' => 1560314705
+                'modified' => 1560697880
             ],
             'nl' => [
                 'file' => 'system/languages/nl.yaml',
-                'modified' => 1560314705
+                'modified' => 1560697880
             ],
             'no' => [
                 'file' => 'system/languages/no.yaml',
-                'modified' => 1560314705
+                'modified' => 1560697880
             ],
             'pl' => [
                 'file' => 'system/languages/pl.yaml',
-                'modified' => 1560314705
+                'modified' => 1560697880
             ],
             'pt' => [
                 'file' => 'system/languages/pt.yaml',
-                'modified' => 1560314705
+                'modified' => 1560697880
             ],
             'ro' => [
                 'file' => 'system/languages/ro.yaml',
-                'modified' => 1560314705
+                'modified' => 1560697880
             ],
             'ru' => [
                 'file' => 'system/languages/ru.yaml',
-                'modified' => 1560314705
+                'modified' => 1560697880
             ],
             'sk' => [
                 'file' => 'system/languages/sk.yaml',
-                'modified' => 1560314705
+                'modified' => 1560697880
             ],
             'sl' => [
                 'file' => 'system/languages/sl.yaml',
-                'modified' => 1560314705
+                'modified' => 1560697880
             ],
             'sv' => [
                 'file' => 'system/languages/sv.yaml',
-                'modified' => 1560314705
+                'modified' => 1560697880
             ],
             'th' => [
                 'file' => 'system/languages/th.yaml',
-                'modified' => 1560314705
+                'modified' => 1560697880
             ],
             'tr' => [
                 'file' => 'system/languages/tr.yaml',
-                'modified' => 1560314705
+                'modified' => 1560697880
             ],
             'uk' => [
                 'file' => 'system/languages/uk.yaml',
-                'modified' => 1560314705
+                'modified' => 1560697880
             ],
             'vi' => [
                 'file' => 'system/languages/vi.yaml',
-                'modified' => 1560314705
+                'modified' => 1560697880
             ],
             'zh' => [
                 'file' => 'system/languages/zh.yaml',
-                'modified' => 1560314705
+                'modified' => 1560697880
             ],
             'zh-tw' => [
                 'file' => 'system/languages/zh-tw.yaml',
-                'modified' => 1560314705
+                'modified' => 1560697880
             ]
         ],
         'user/plugins' => [
@@ -216,6 +216,16 @@ return [
             'uk' => [
                 'file' => 'user/plugins/login/languages/uk.yaml',
                 'modified' => 1560314735
+            ]
+        ],
+        'user/plugins/ganalytics/languages' => [
+            'de' => [
+                'file' => 'user/plugins/ganalytics/languages/de.yaml',
+                'modified' => 1560383909
+            ],
+            'en' => [
+                'file' => 'user/plugins/ganalytics/languages/en.yaml',
+                'modified' => 1560383909
             ]
         ],
         'user/plugins/admin/languages' => [
@@ -5307,6 +5317,46 @@ Sie haben **2FA** für dieses Konto aktiviert. Bitte benutzen Sie Ihre **2FA** A
                 'COMMAND' => 'Befehl',
                 'EXTRA_ARGUMENTS' => 'Zusätzliche Argumente'
             ],
+            'PLUGIN_GANALYTICS' => [
+                '_YES' => 'Ja',
+                '_NO' => 'Nein',
+                'ENABLED' => 'Aktiviert',
+                'DISABLED' => 'Deaktiviert',
+                'PLUGIN_STATUS' => 'Plugin Status',
+                'SECONDS' => 'Sekunden',
+                'SECTION_CONFIGURATION' => 'Einstellungen',
+                'SECTION_ADVANCED' => 'Erweitert',
+                'SECTION_COOKIE' => 'Cookie',
+                'SECTION_DEBUG' => 'Debugging',
+                'TACKING_ID' => 'Tracking-ID',
+                'TACKING_ID_HELP' => 'Google Analytics Tracking-ID',
+                'POSITION' => 'Code-Position',
+                'POSITION_HELP' => 'Position des Codes im HTML-Dokument (Head oder Body)',
+                'POSITION_HEAD' => 'Kopf',
+                'POSITION_BODY' => 'Inhaltsende',
+                'ASYNC' => 'Asynchron laden',
+                'ASYNC_HELP' => 'Erlaubt es modernen Browsern das Google Analytics Script im Voraus zu laden',
+                'FORCE_SSL' => 'SSL erzwingen',
+                'FORCE_SSL_HELP' => 'Alle Daten werden mit SSL gesendet, auch von unsicheren (HTTP) Seiten',
+                'ANONYMIZE_IP' => 'IP-Anonymisierung',
+                'ANONYMIZE_IP_HELP' => 'Aktiviert die Anonymisierung der IP-Adresse',
+                'OBJECT_NAME' => 'Globales (ga) Objekt',
+                'OBJECT_NAME_HELP' => 'Variablenname des globalen Google Analytics Objekts (ga)',
+                'BLOCKED_IPS' => 'Gesperrte IP-Adressen',
+                'BLOCKED_IPS_HELP' => 'Für die angegebenen IP-Adressen wird der Google Analytics Code nicht eingebunden',
+                'COOKIE_CONFIG' => 'Eigene Konfiguration',
+                'COOKIE_CONFIG_HELP' => 'Soll eine eigene Cookie-Konfiguration oder die von Google Analytics genutzt werden',
+                'COOKIE_NAME' => 'Name',
+                'COOKIE_NAME_HELP' => 'Der Name des Google Analytics Cookie',
+                'COOKIE_DOMAIN' => 'Domain',
+                'COOKIE_DOMAIN_HELP' => 'Cookie Domain. Standardmäßig wird der Host-Name der aktuellen URL benutzt',
+                'COOKIE_EXPIRES' => 'Läuft ab',
+                'COOKIE_EXPIRES_HELP' => 'Die Ablaufzeit des Google Analytics Cookie. Standard sind zwei Jahre',
+                'DEBUG_STATUS' => 'Debug-Version',
+                'DEBUG_STATUS_HELP' => 'Aktiviert die Debugging-Version der analytics.js Bibliothek',
+                'DEBUG_TRACE' => 'Trace-Debugging',
+                'DEBUG_TRACE_HELP' => 'Ausführlichere Informationen werden auf der Konsole ausgegeben'
+            ],
             'PLUGIN_LOGIN' => [
                 'USERNAME' => 'Benutzername',
                 'EMAIL' => 'E-Mail',
@@ -7276,6 +7326,46 @@ You have **2FA** enabled on this account. Please use your **2FA** app to enter t
                 'EXTRA_ARGUMENTS' => 'Extra Arguments',
                 'DEFAULT_LANG' => 'Override Default Language',
                 'DEFAULT_LANG_HELP' => 'Default is the first supported language. This can be overridden by setting this option but it must be one of the supported languages'
+            ],
+            'PLUGIN_GANALYTICS' => [
+                '_YES' => 'Yes',
+                '_NO' => 'No',
+                'ENABLED' => 'Enabled',
+                'DISABLED' => 'Disabled',
+                'PLUGIN_STATUS' => 'Plugin status',
+                'SECONDS' => 'seconds',
+                'SECTION_CONFIGURATION' => 'Configuration',
+                'SECTION_ADVANCED' => 'Advanced',
+                'SECTION_COOKIE' => 'Cookie',
+                'SECTION_DEBUG' => 'Debug',
+                'TACKING_ID' => 'Tracking ID',
+                'TACKING_ID_HELP' => 'Google Analytics Tracking ID',
+                'POSITION' => 'Code Position',
+                'POSITION_HELP' => 'Code Position in the HTML document (head or body)',
+                'POSITION_HEAD' => 'Head',
+                'POSITION_BODY' => 'End of Body',
+                'ASYNC' => 'Load asynchronously',
+                'ASYNC_HELP' => 'Allow modern browsers to preload the Google Analytics script',
+                'FORCE_SSL' => 'Force SSL',
+                'FORCE_SSL_HELP' => 'Send all data using SSL, even from insecure (HTTP) pages',
+                'ANONYMIZE_IP' => 'IP Anonymization',
+                'ANONYMIZE_IP_HELP' => 'Enable the anonymization of the IP address',
+                'OBJECT_NAME' => 'Global (ga) Object',
+                'OBJECT_NAME_HELP' => 'Rename the global (ga) variable of the Google Analytics object',
+                'BLOCKED_IPS' => 'Blocked IP addresses',
+                'BLOCKED_IPS_HELP' => 'For the given IP addresses the Google Analytics code will not be embedded',
+                'COOKIE_CONFIG' => 'Custom Configuration',
+                'COOKIE_CONFIG_HELP' => 'Use a custom cookie configuration instead of the default one',
+                'COOKIE_NAME' => 'Name',
+                'COOKIE_NAME_HELP' => 'The Name of the Google Analytics cookie',
+                'COOKIE_DOMAIN' => 'Domain',
+                'COOKIE_DOMAIN_HELP' => 'The Cookie domain. Default is the hostname of the current URL',
+                'COOKIE_EXPIRES' => 'Expires',
+                'COOKIE_EXPIRES_HELP' => 'The expiration time of the Google Analytics cookie. Default is two years',
+                'DEBUG_STATUS' => 'Debug Version',
+                'DEBUG_STATUS_HELP' => 'Enable the debug version of the analytics.js library',
+                'DEBUG_TRACE' => 'Trace Debugging',
+                'DEBUG_TRACE_HELP' => 'Enabling trace debugging will output more verbose information to the console'
             ],
             'PLUGIN_LOGIN' => [
                 'USERNAME' => 'Username',

@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/var/www/html/grav/system/languages/eu.yaml',
-    'modified' => 1560314705,
+    'modified' => 1560697880,
     'data' => [
         'GRAV' => [
             'FRONTMATTER_ERROR_PAGE' => '--- title: %1$s --- # Errorea: Baliogabeko Frontmatter Bidea: `%2$s` **%3$s** ``` %4$s ```',

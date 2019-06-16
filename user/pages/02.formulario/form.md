@@ -1,5 +1,4 @@
 ---
-title: 'Formulario Contacto'
 cache_enable: false
 form:
     name: contact
