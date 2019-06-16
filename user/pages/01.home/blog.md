@@ -1,4 +1,5 @@
----
+<style> body{ background-color:#FFFCD4; } </style>
+
 title: BLOG
 media_order: graficacion.jpg
 ---
