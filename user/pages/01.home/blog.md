@@ -1,7 +1,6 @@
 
 
 title: BLOG
-<style> body{ background-color:#FFFCD4; } </style>
 ---
 media_order: graficacion.jpg
 ---
@@ -15,3 +14,5 @@ Se creo con el fin de presentarles tematicas y ejercicios practicos de la materi
 <p><center><a href="https://github.com/Alejandrra/other-grav/" target="_blank" rel="nofollow noopener noreferrer" class="external-link no-image">
   <strong>Repositorios en GitHub</strong>
 </a></center></p>
+
+<style> body{ background-color:#FFFCD4; } </style>
