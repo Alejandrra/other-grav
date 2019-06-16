@@ -1,7 +1,11 @@
 
 
 title: BLOG
+<style> body{ background-color:#FFFCD4; } </style>
+---
 media_order: graficacion.jpg
+---
+
 
 ![](graficacion.jpg)
 
