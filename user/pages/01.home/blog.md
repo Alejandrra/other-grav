@@ -1,6 +1,7 @@
 
 
 title: BLOG
+
 media_order: graficacion.jpg
 
 ![](graficacion.jpg)
