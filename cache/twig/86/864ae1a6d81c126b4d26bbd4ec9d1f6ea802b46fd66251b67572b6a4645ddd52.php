@@ -27,7 +27,7 @@ class __TwigTemplate_57958f6f4a3b554ab7613115bdee14ae36e6e2b7fd8ff6df1b9c7903298
     protected function doDisplay(array $context, array $blocks = [])
     {
         // line 1
-        $this->loadTemplate("blog.html.twig", "blog.html.twig", 1, "79858389")->display($context);
+        $this->loadTemplate("blog.html.twig", "blog.html.twig", 1, "1404085516")->display($context);
     }
 
     public function getTemplateName()
@@ -69,6 +69,7 @@ class __TwigTemplate_57958f6f4a3b554ab7613115bdee14ae36e6e2b7fd8ff6df1b9c7903298
   <div class=\"row blog_page_titles\">
     <div class=\"large-12 columns\">
       {{ page.content }}
+       
     </div>
   </div>
 </div>
@@ -105,7 +106,7 @@ class __TwigTemplate_57958f6f4a3b554ab7613115bdee14ae36e6e2b7fd8ff6df1b9c7903298
 
 
 /* blog.html.twig */
-class __TwigTemplate_57958f6f4a3b554ab7613115bdee14ae36e6e2b7fd8ff6df1b9c7903298c04d2___79858389 extends \Twig\Template
+class __TwigTemplate_57958f6f4a3b554ab7613115bdee14ae36e6e2b7fd8ff6df1b9c7903298c04d2___1404085516 extends \Twig\Template
 {
     public function __construct(Environment $env)
     {
@@ -155,13 +156,14 @@ class __TwigTemplate_57958f6f4a3b554ab7613115bdee14ae36e6e2b7fd8ff6df1b9c7903298
         // line 19
         echo $this->getAttribute(($context["page"] ?? null), "content", []);
         echo "
+       
     </div>
   </div>
 </div>
 <div class=\"row\">
   <div id=\"primary\" class=\"content-area\">
     <div class=\"large-";
-        // line 25
+        // line 26
         if ( !$this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", []), "fullwidth", [])) {
             echo "8";
         } else {
@@ -170,7 +172,7 @@ class __TwigTemplate_57958f6f4a3b554ab7613115bdee14ae36e6e2b7fd8ff6df1b9c7903298
         echo " columns\">
       <main id=\"main\" class=\"site-main\" role=\"main\">
         ";
-        // line 27
+        // line 28
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable(($context["collection"] ?? null));
         $context['loop'] = [
@@ -187,12 +189,12 @@ class __TwigTemplate_57958f6f4a3b554ab7613115bdee14ae36e6e2b7fd8ff6df1b9c7903298
             $context['loop']['last'] = 1 === $length;
         }
         foreach ($context['_seq'] as $context["_key"] => $context["child"]) {
-            // line 28
+            // line 29
             echo "        <div class=\"row\">
           ";
-            // line 29
-            $this->loadTemplate("partials/blog_item.html.twig", "blog.html.twig", 29)->display(twig_array_merge($context, ["page" => $context["child"], "truncate" => true]));
             // line 30
+            $this->loadTemplate("partials/blog_item.html.twig", "blog.html.twig", 30)->display(twig_array_merge($context, ["page" => $context["child"], "truncate" => true]));
+            // line 31
             echo "        </div>
         ";
             ++$context['loop']['index0'];
@@ -207,35 +209,35 @@ class __TwigTemplate_57958f6f4a3b554ab7613115bdee14ae36e6e2b7fd8ff6df1b9c7903298
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['child'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 32
+        // line 33
         echo "
         ";
-        // line 33
+        // line 34
         if (($this->getAttribute($this->getAttribute($this->getAttribute(($context["config"] ?? null), "plugins", []), "pagination", []), "enabled", []) && $this->getAttribute($this->getAttribute(($context["collection"] ?? null), "params", []), "pagination", []))) {
-            // line 34
-            echo "        ";
-            $this->loadTemplate("partials/pagination.html.twig", "blog.html.twig", 34)->display(twig_array_merge($context, ["base_url" => $this->getAttribute(($context["page"] ?? null), "url", []), "pagination" => $this->getAttribute($this->getAttribute(($context["collection"] ?? null), "params", []), "pagination", [])]));
             // line 35
             echo "        ";
+            $this->loadTemplate("partials/pagination.html.twig", "blog.html.twig", 35)->display(twig_array_merge($context, ["base_url" => $this->getAttribute(($context["page"] ?? null), "url", []), "pagination" => $this->getAttribute($this->getAttribute(($context["collection"] ?? null), "params", []), "pagination", [])]));
+            // line 36
+            echo "        ";
         }
-        // line 36
+        // line 37
         echo "      </main>
     </div>
     ";
-        // line 38
+        // line 39
         if ( !$this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", []), "fullwidth", [])) {
-            // line 39
+            // line 40
             echo "    <div class=\"large-3 large-offset-1 columns\">
       <div id=\"secondary\" class=\"widget-area\">
         ";
-            // line 41
-            $this->loadTemplate("partials/sidebar.html.twig", "blog.html.twig", 41)->display($context);
             // line 42
+            $this->loadTemplate("partials/sidebar.html.twig", "blog.html.twig", 42)->display($context);
+            // line 43
             echo "      </div>
     </div>
     ";
         }
-        // line 45
+        // line 46
         echo "  </div>
 </div>
 ";
@@ -253,7 +255,7 @@ class __TwigTemplate_57958f6f4a3b554ab7613115bdee14ae36e6e2b7fd8ff6df1b9c7903298
 
     public function getDebugInfo()
     {
-        return array (  239 => 45,  234 => 42,  232 => 41,  228 => 39,  226 => 38,  222 => 36,  219 => 35,  216 => 34,  214 => 33,  211 => 32,  196 => 30,  194 => 29,  191 => 28,  174 => 27,  165 => 25,  156 => 19,  151 => 16,  148 => 15,  143 => 1,  140 => 12,  138 => 11,  135 => 8,  133 => 7,  131 => 5,  129 => 4,  127 => 3,  30 => 1,);
+        return array (  241 => 46,  236 => 43,  234 => 42,  230 => 40,  228 => 39,  224 => 37,  221 => 36,  218 => 35,  216 => 34,  213 => 33,  198 => 31,  196 => 30,  193 => 29,  176 => 28,  167 => 26,  157 => 19,  152 => 16,  149 => 15,  144 => 1,  141 => 12,  139 => 11,  136 => 8,  134 => 7,  132 => 5,  130 => 4,  128 => 3,  30 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -285,6 +287,7 @@ class __TwigTemplate_57958f6f4a3b554ab7613115bdee14ae36e6e2b7fd8ff6df1b9c7903298
   <div class=\"row blog_page_titles\">
     <div class=\"large-12 columns\">
       {{ page.content }}
+       
     </div>
   </div>
 </div>
