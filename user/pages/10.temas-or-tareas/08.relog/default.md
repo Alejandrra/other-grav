@@ -2,6 +2,10 @@
 title: Relog
 ---
 
+<p><time class="dt-published" datetime="2019-06-14T12:23:20-08:00">
+<i class="fa fa-calendar"></i> 14th Jun 2019
+</time></p>
+
 Relog creado con Canvas
 
 <html>
@@ -95,3 +99,5 @@ function drawHand(ctx, pos, length, width) {
 
 </body>
 </html>
+
+</a> <button onclick="location.href='https://alejandramontenegro.com/temas-or-tareas/relog-pero-invertido'">Siguiente</button> <button onclick="location.href='https://alejandramontenegro.com/temas-or-tareas/radar-tecnologico'">Anterior</button>

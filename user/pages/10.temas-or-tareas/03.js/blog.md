@@ -2,6 +2,12 @@
 title: JS
 ---
 
+<p><time class="dt-published" datetime="2019-06-12T23:2:26-08:00">
+<i class="fa fa-calendar"></i> 12th Jun 2019
+</time></p>
+
+
+
 <html lang="en">
 <head>
  <link rel="stylesheet" href="https://alejandramontenegro.com/admin/pages/js" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
@@ -41,3 +47,7 @@ Ingrese numero: <input type="text" id="valor" onkeyup="myFunction()" >
 </script>
 </body>
 </html>
+
+<button onclick="location.href='https://alejandramontenegro.com/temas-or-tareas/bandera'">Siguiente</button>
+<button onclick="location.href='https://alejandramontenegro.com/temas-or-flat-file-cms''">Anterior</button>
+

@@ -2,6 +2,11 @@
 title: 'Estructura de carpetas PHP'
 ---
 
+ <p><time class="dt-published" datetime="2019-06-13T23:21:18-08:00">
+<i class="fa fa-calendar"></i> 12th Jun 2019
+</time></p>
+
+
 ![](images%20%282%29.jpg)
 
 Grav tiene estrucuturas de php que son de mucha importancia donde profundizaremos cada una de ellas y al final indicare si son de importancia o no.

@@ -2,6 +2,10 @@
 title: 'Radar Tecnologico'
 ---
 
+<p><time class="dt-published" datetime="2019-06-13T12:21:18-08:00">
+<i class="fa fa-calendar"></i> 13th Jun 2019
+</time></p>
+
 ![](tecno.PNG)
 
 
@@ -12,3 +16,5 @@ Puedes revisar un PDF donde muestra herramientras como Adoptar,Probar y Resistir
   <strong>Para encontrar mas informacion da clic aqui</strong>
 </a></center></p>
 
+<button onclick="location.href='https://alejandramontenegro.com/temas-or-tareas/relog'">Siguiente</button>
+<button onclick="location.href='https://alejandramontenegro.com/temas-or-tareas/juego-ascensor'">Anterior</button>

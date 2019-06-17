@@ -2,6 +2,10 @@
 title: 'Java Scrip y Boostrap'
 ---
 
+<p><time class="dt-published" datetime="2019-06-12T23:22:18-08:00">
+<i class="fa fa-calendar"></i> 12th Jun 2019
+</time></p>
+
 ![](20160410154524-1521622883962.jpg)
 
 Permite la realizacion de sitios web complejos por lo podemos crear un contenido dinamico en donde puedas controlar tus archivos de multimedia, crear imagenes animadas
@@ -21,5 +25,8 @@ Es un framework entre CSS y Javascript donde podras diseñar la creación de int
   <strong>Para mas informacion clic aqui  </strong>
 </a></center></p>
 
+
+<button onclick="location.href='https://alejandramontenegro.com/temas-or-tareas/juego-ascensor'">Siguiente</button>
+<button onclick="location.href='https://alejandramontenegro.com/temas-or-tareas/bandera'">Anterior</button>
 
 

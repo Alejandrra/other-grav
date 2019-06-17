@@ -1,0 +1,28 @@
+1561314352
+a:2:{s:7:"content";s:793:"<p>Fue creada por  SVG </p>
+<html>
+<body>
+
+<svg width="400" height="300">
+  <rect width="400" height="300"  
+  style="fill:rgb(0,128,0)"/>
+
+   <polygon points="0,0,200,150,0,300,0"
+  style="stroke:black;stroke-width:40;fill-rule:evenodd;" />
+
+  <polygon points="400,0,200,150,400,300,0"
+  style="stroke:black;stroke-width:40;fill-rule:evenodd;" />
+
+  <polygon points="0,0,400,300"
+  style="stroke:yellow;stroke-width:40;fill-rule:evenodd;" />
+
+  <polygon points="400,0,0,300"
+  style="stroke:yellow;stroke-width:40;fill-rule:evenodd;" />
+
+</svg>
+
+</body>
+
+    <button onclick="location.href='https://alejandramontenegro.com/temas-or-tareas/java-scrip-y-boostrap'">Siguiente</button><button onclick="location.href='https://alejandramontenegro.com/temas-or-tareas/js'">Anterior</button>
+
+</html>";s:12:"content_meta";N;}

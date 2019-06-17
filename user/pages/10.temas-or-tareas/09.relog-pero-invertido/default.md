@@ -2,6 +2,10 @@
 title: 'Relog pero Invertido'
 ---
 
+<p><time class="dt-published" datetime="2019-06-14T12:23:20-08:00">
+<i class="fa fa-calendar"></i> 14th Jun 2019
+</time></p
+
 <html>
 <body>
 
@@ -90,6 +94,8 @@ function drawHand(ctx, pos, length, width) {
     ctx.rotate(-pos);
 }
 </script>
-
 </body>
 </html>
+
+<button onclick="location.href='https://alejandramontenegro.com/temas-or-tareas/bandera-del-ecuador'">Siguiente</button> 
+<button onclick="location.href='https://alejandramontenegro.com/temas-or-tareas/relog'">Anterior</button>

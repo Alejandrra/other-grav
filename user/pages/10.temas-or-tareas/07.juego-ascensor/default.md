@@ -2,6 +2,11 @@
 title: 'Juego Ascensor'
 ---
 
+<p><time class="dt-published" datetime="2019-06-12T12:22:18-08:00">
+<i class="fa fa-calendar"></i> 12th Jun 2019
+</time></p>
+
+
 **   Nivel 1**
 <pre><code>{
     init: function(elevators, floors) {
@@ -453,4 +458,9 @@ title: 'Juego Ascensor'
             // We normally don't need to do anything here
         }
 }</code></pre>
+
+
+
+
+<button onclick="location.href='https://alejandramontenegro.com/temas-or-tareas/radar-tecnologico'">Siguiente</button> <button onclick="location.href='https://alejandramontenegro.com/temas-or-tareas/java-scrip-y-boostrap'">Anterior</button>
     

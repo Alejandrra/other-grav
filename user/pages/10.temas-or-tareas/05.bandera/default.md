@@ -2,6 +2,10 @@
 title: 'Bandera de Jamaica'
 ---
 
+ <p><time class="dt-published" datetime="2019-06-12T23:21:18-08:00">
+<i class="fa fa-calendar"></i> 12th Jun 2019
+</time></p>
+
 Fue creada por  SVG	
 
 
@@ -27,5 +31,16 @@ Fue creada por  SVG
 </svg>
  
 </body>
+    
 </html>
+
+</a> <button onclick="location.href='https://alejandramontenegro.com/temas-or-tareas/java-scrip-y-boostrap'">Siguiente</button> <button onclick="location.href='https://alejandramontenegro.com/temas-or-tareas/js'">Anterior</button>
+
+
+
+
+
+
+
+
 
