@@ -1,28 +1,16 @@
-
-
-title: BLOG
 ---
-media_order: graficacion.jpg
+title: home
 ---
-
-<<<<<<< HEAD
-<style> body{ background-color:#FFD933; } </style>
-=======
-
-![](graficacion.jpg)
->>>>>>> 2a43193ef7527e420dbde48789133c9241bd4288
 
 ###### ###### ###### ###### ###### BIENVENIDOS A MI SITIO WEB
 
 <p><center><a href="https://github.com/Alejandrra/other-grav/" target="_blank" rel="nofollow noopener noreferrer" class="external-link no-image">
   <strong>Repositorios en GitHub</strong>
 </a></center></p>
-
-<<<<<<< HEAD
 ![](graficacion.jpg)
 
-
-Se creo con el fin de presentarles tematicas y ejercicios practicos de la materia de Graficacion y Animaciones cuyo objetivo es  demostrar que se puede realizar cosas increibles utilizando diferentes lenguajes y frameworks. Espero que te guste y que te sirva de apoyo. 
-
-=======
->>>>>>> 2a43193ef7527e420dbde48789133c9241bd4288
+ <style>
+    body{
+        background-color:#FFD933  ;
+    }
+</style>

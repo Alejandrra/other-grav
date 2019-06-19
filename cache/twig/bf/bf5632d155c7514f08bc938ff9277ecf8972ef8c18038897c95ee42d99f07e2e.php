@@ -194,7 +194,7 @@ class __TwigTemplate_2c3526bc21cc30dee2fa28a69c8572f0f8ece4627bbe87ead18f9129d05
 {% block header %}
   {% include 'partials/header.html.twig' %}
 {% endblock %}
-
+ 
 {% block content %}
 <div class=\"home_posts_titles\">
   <div class=\"row\">

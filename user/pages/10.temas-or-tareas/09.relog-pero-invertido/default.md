@@ -97,5 +97,5 @@ function drawHand(ctx, pos, length, width) {
 </body>
 </html>
 
-<button onclick="location.href='https://alejandramontenegro.com/temas-or-tareas/bandera-del-ecuador'">Siguiente</button> 
+<button onclick="location.href='https://alejandramontenegro.com/temas-or-tareas/canvas'">Siguiente</button> 
 <button onclick="location.href='https://alejandramontenegro.com/temas-or-tareas/relog'">Anterior</button>
