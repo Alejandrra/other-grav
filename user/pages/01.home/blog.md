@@ -1,5 +1,5 @@
 ---
-title: home
+title: BLOG
 ---
 
 ###### ###### ###### ###### ###### BIENVENIDOS A MI SITIO WEB
