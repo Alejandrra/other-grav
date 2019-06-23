@@ -1,9 +1,10 @@
 ---
-title: TEMAS|TAREAS
-media_order: Task-Management1.jpg
+title: TEMAS
+media_order: slider_animation2.gif
 ---
 
-![](Task-Management1.jpg)
+![](slider_animation2.gif)
 
-Aqui encontraras temas y tareas realizados en clases
+
+Aqui encontraras temas tratados en clases
 

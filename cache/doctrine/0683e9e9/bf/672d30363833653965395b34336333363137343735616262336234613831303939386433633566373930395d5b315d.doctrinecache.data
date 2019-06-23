@@ -1,6 +1,0 @@
-1561437312
-a:2:{s:7:"content";s:221:"<p>window.GoogleAnalyticsObject = 'ga';
-window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-window.ga_debug = {trace: true};
-ga('create', 'UA-139886031-1', 'auto');
-ga('send', 'pageview');</p>";s:12:"content_meta";N;}

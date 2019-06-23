@@ -27,7 +27,7 @@ class __TwigTemplate_0fb9800246e615c10b3e1225d2250debe9ead90eeaca285f299d4ee8544
     protected function doDisplay(array $context, array $blocks = [])
     {
         // line 1
-        $this->loadTemplate("partials/login-form.html.twig", "partials/login-form.html.twig", 1, "195739145")->display(twig_array_merge($context, ["title" => "Grav Admin Login"]));
+        $this->loadTemplate("partials/login-form.html.twig", "partials/login-form.html.twig", 1, "1321953979")->display(twig_array_merge($context, ["title" => "Grav Admin Login"]));
     }
 
     public function getTemplateName()
@@ -91,7 +91,7 @@ class __TwigTemplate_0fb9800246e615c10b3e1225d2250debe9ead90eeaca285f299d4ee8544
 
 
 /* partials/login-form.html.twig */
-class __TwigTemplate_0fb9800246e615c10b3e1225d2250debe9ead90eeaca285f299d4ee85449bf9c___195739145 extends \Twig\Template
+class __TwigTemplate_0fb9800246e615c10b3e1225d2250debe9ead90eeaca285f299d4ee85449bf9c___1321953979 extends \Twig\Template
 {
     public function __construct(Environment $env)
     {

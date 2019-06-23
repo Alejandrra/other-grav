@@ -17,5 +17,3 @@ Entre los cms trabajados y probados tenemos:
 * Razor (Usa SQLite)
 * WonderCMS
 
-<button onclick="location.href='https://alejandramontenegro.com/temas-or-tareas/js '">Siguiente</button>
-<button onclick="location.href='https://alejandramontenegro.com/temas-or-tareas/quiz'">Anterior</button>
