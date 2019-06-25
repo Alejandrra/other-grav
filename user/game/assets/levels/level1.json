@@ -29,8 +29,8 @@
                  "type":"coin",
                  "visible":true,
                  "width":0,
-                 "x":272,
-                 "y":236
+                 "x":432,
+                 "y":252
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -47,7 +47,7 @@
          "objects":[
                 {
                  "height":0,
-                 "id":147,
+                 "id":45,
                  "name":"P",
                  "properties":
                     {
@@ -142,7 +142,7 @@
          "color":"#ff5500",
          "draworder":"topdown",
          "height":20,
-         "name":"Coins Layer",
+         "name":"Fireflies Layer",
          "objects":[
                 {
                  "height":0,
@@ -153,17 +153,12 @@
 
                     },
                  "rotation":0,
-                 "type":"coin",
+                 "type":"firefly",
                  "visible":true,
                  "width":0,
                  "x":432,
                  "y":252
-                 
-                }
-                
-                
-               
-               ],
+                }],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
