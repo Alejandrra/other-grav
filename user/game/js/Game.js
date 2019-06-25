@@ -6,9 +6,9 @@ var game = new Phaser.Game(544, 320, Phaser.CANVAS, 'game_div', null, false, fal
 
 // Define our 'global' variable
 game.global = {
-    levels: 20,
+    levels: 21,
     levelStatusArray: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
-                       1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+                       1, 1, 1, 1, 1, 1, 1, 1, 1, 1,1]
 };
 
 // Add all the states
