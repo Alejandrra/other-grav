@@ -100,4 +100,3 @@ function drawHand(ctx, pos, length, width) {
 </body>
 </html>
 
-</a> <button onclick="location.href='https://alejandramontenegro.com/temas-or-tareas/relog-pero-invertido'">Siguiente</button> <button onclick="location.href='https://alejandramontenegro.com/temas-or-tareas/radar-tecnologico'">Anterior</button>
