@@ -98,3 +98,8 @@ form:
             reset: false
 ---
 
+ <style>
+    body{
+        background-color:#FFBE33    ;
+    }
+</style>

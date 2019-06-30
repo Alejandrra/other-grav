@@ -1,6 +1,6 @@
 ---
 title: QUIZ
-media_order: 'cs.png,html.png,js.png'
+media_order: 'html (1)_opt.png,cs_opt.png,js_opt.png'
 ---
 
  <p><time class="dt-published" datetime="2019-06-12T23:22:45-08:00">
@@ -11,7 +11,8 @@ _Esto se realizo con la intencion de que conocimientos tenemos respecto a cada u
 _
 
 
-![](cs.png)
-![](html.png)
-![](js.png)
+![](html%20%281%29_opt.png)
+![](cs_opt.png)
+![](js_opt.png)
+
 

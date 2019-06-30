@@ -1,5 +1,6 @@
 ---
 title: Canvas
+media_order: pong-feature.png
 ---
 
 <p><time class="dt-published" datetime="2019-06-15T12:22:30-08:00">

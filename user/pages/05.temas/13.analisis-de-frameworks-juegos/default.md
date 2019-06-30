@@ -1,6 +1,6 @@
 ---
 title: 'Analisis de Frameworks-Juegos'
-media_order: 'descarga.jpg,images.png,header.jpg,GD-logo-big.png,images (1).png'
+media_order: 'GD-logo-big.png,images (3).png,header.jpg,descarga.jpg,images (1).png'
 ---
 
 <p><time class="dt-published" datetime="2019-06-19T12:22:58-08:00">
@@ -8,8 +8,8 @@ media_order: 'descarga.jpg,images.png,header.jpg,GD-logo-big.png,images (1).png'
 </time></p>
 
 
-![](GD-logo-big.png)
 
+![](GD-logo-big.png)
 ###### ###### ###### Gdevelop
 
 * GDevelop es un creador de juegos 
@@ -43,8 +43,8 @@ Sirve para crear juegos en 2D con una facilidad impresionante, sin necesidad de 
 * Pesa mucho los programas
 
 
-![](images.png)
 
+![](images%20%283%29.png)
 ###### ###### ###### PixiJS
 
 Pixi es un motor de renderizado 2D muy potente, lo que significa que te ayuda a mostrar y animar gráficos interactivos, lo que facilita la creación de juegos en javascript y HTML5.

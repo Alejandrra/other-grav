@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/var/www/html/grav/user/accounts/alejandrita.yaml',
-    'modified' => 1560315790,
+    'modified' => 1561588496,
     'data' => [
         'email' => 'alejandranicolemontenegroarroy@gmail.com',
         'fullname' => 'Alejandra Montenegro',
@@ -19,7 +19,7 @@ return [
         ],
         'hashed_password' => '$2y$10$WksDxueI/hzhuo8HW4HsSeeX.OCwyWwDvOdgaMYaQTAxdXoj4aSeC',
         'twofa_secret' => 'HEQPMTIV2ILSY4ORBZ5UCJNB6X4WR4DC',
-        'language' => 'en',
+        'language' => 'fr',
         'twofa_enabled' => false,
         'avatar' => [
             'user/accounts/avatars/hZPS0sQVgpiCdNv.jpg' => [
