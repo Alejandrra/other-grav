@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1561587449,
-    'checksum' => 'ee07bf186bfd553ad902aa807aac1ffe',
+    'timestamp' => 1562045181,
+    'checksum' => '458da486abcc272c779277d80e954f11',
     'files' => [
         'user/config' => [
             'backups' => [
@@ -12,6 +12,10 @@ return [
             'media' => [
                 'file' => 'user/config/media.yaml',
                 'modified' => 1560314120
+            ],
+            'plugins/admin' => [
+                'file' => 'user/config/plugins/admin.yaml',
+                'modified' => 1562045063
             ],
             'plugins/email' => [
                 'file' => 'user/config/plugins/email.yaml',
@@ -39,7 +43,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1561587449
+                'modified' => 1562045174
             ]
         ],
         'system/config' => [
@@ -266,7 +270,7 @@ return [
                 'sidebar' => [
                     'activate' => 'tab',
                     'hover_delay' => 100,
-                    'size' => 'auto'
+                    'size' => 'small'
                 ],
                 'dashboard' => [
                     'days_of_stats' => 7
@@ -308,10 +312,19 @@ return [
                         1 => '/modular'
                     ],
                     'history' => [
-                        'daily' => 30,
-                        'monthly' => 12,
-                        'visitors' => 20
+                        'daily' => '30',
+                        'monthly' => '12',
+                        'visitors' => '20'
                     ]
+                ],
+                'pagemedia' => [
+                    'resize_width' => 0,
+                    'resize_height' => 0,
+                    'res_min_width' => 0,
+                    'res_min_height' => 0,
+                    'res_max_width' => 0,
+                    'res_max_height' => 0,
+                    'resize_quality' => 0.8
                 ]
             ],
             'problems' => [

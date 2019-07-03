@@ -1,0 +1,66 @@
+1562774327
+a:2:{s:7:"content";s:2331:"<h6>BIENVENIDOS A MI SITIO WEB</h6>
+<p><center><a href="https://github.com/Alejandrra/other-grav/" target="_blank" rel="nofollow noopener noreferrer" class="external-link no-image">
+  <strong>Repositorios en GitHub</strong>
+</a></center></p>
+<style>
+#ba-cuadrobusq .ba-textobusq {
+border: 1px solid #DDD;
+box-sizing: border-box;
+color: black;
+font-family: 'Lora', serif;
+font-size: 14px;
+padding:9px;
+width: 220px;
+transition: all 0.3s ease-in-out; 
+-webkit-transition: all 0.3s ease-in-out; 
+-moz-transition: all 0.3s ease-in-out; 
+-o-transition: all 0.3s ease-in-out; 
+-ms-transition: all 0.3s ease-in-out; 
+}
+#ba-cuadrobusq .ba-textobusq:hover {
+box-shadow:inset 1px 1px 8px gainsboro;
+}
+#ba-cuadrobusq .ba-textobusq:focus {
+background-image: -webkit-linear-gradient(white,white); 
+background-image: -moz-linear-gradient(white,white); 
+background-image: -ms-linear-gradient(white,white);
+background-image: -o-linear-gradient(white,white); 
+background-color:white; 
+outline:1px solid #E8550B; 
+color:black; 
+font-style:normal; 
+box-shadow:inset 1px 1px 8px gainsboro; 
+border:1px solid #E8550B; 
+} 
+#ba-cuadrobusq .ba-enviar {
+background:#E8550B;
+border: 1px solid #E3E3D9;
+color: white;
+cursor: pointer;
+font-family: 'Droid Sans', sans-serif !important;
+color: #fff;
+cursor: pointer;
+line-height: 19px;
+padding: 8px 10px;
+text-decoration: none;
+}
+#ba-cuadrobusq .ba-enviar:hover {
+background:#e8320f;
+}
+</style>
+<form action="search/" id="ba-cuadrobusq">
+   <input class="ba-textobusq" name="q" />
+  <input class="ba-enviar" type="submit" value="Buscar" />
+</form>
+<p><img alt="" src="/user/pages/01.home/thumb-1920-997676 (2).jpg" /></p>
+<iframe src="https://alejandramontenegro.com/user/pixi/index.html" height="680" width="340"></iframe>
+<h6>El juego de memoria te dejo el link para que lo descargues y lo pruebes de preferencia usa el navegador Firefox Developer Editon</h6>
+<button onclick="location.href='https://analytics.google.com/analytics/web/template?uid=NqkwKRQ8S1GKnKCGuGJ74w'">ANALITICS</button>
+<button onclick="location.href='https://drive.google.com/drive/folders/1NBckfAizzomgLPn1BY5LTrQIQRSiBzKM?usp=sharing'">LINK DEL JUEGO</button>
+<button onclick="location.href='https://alejandramontenegro.com/tareas/bandera'">BANDERA JAMAICA</button>
+<style>
+    body{
+        background-color:#FFD933  ;
+    }
+</style>";s:12:"content_meta";N;}

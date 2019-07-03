@@ -1,0 +1,24 @@
+1562775175
+a:2:{s:7:"content";s:1350:"<h6>BIENVENIDOS A MI SITIO WEB</h6>
+<p><center><a href="https://github.com/Alejandrra/other-grav/" target="_blank" rel="nofollow noopener noreferrer" class="external-link no-image">
+  <strong>Repositorios en GitHub</strong>
+</a></center></p>
+<div class="searchbox">
+    <label for="search-by"><i class="fa fa-search"></i></label>
+    <input id="search-by" type="text" placeholder="Search Documentation"
+           data-search-input="/search.json/query"/>
+    <span data-search-clear><i class="fa fa-close"></i></span>
+</div>
+<pre><code>        &lt;/div&gt;
+    &lt;/div&gt;</code></pre>
+<p><img alt="" src="/user/pages/01.home/thumb-1920-997676 (2).jpg" /></p>
+<iframe src="https://alejandramontenegro.com/user/pixi/index.html" height="680" width="340"></iframe>
+<h6>El juego de memoria te dejo el link para que lo descargues y lo pruebes de preferencia usa el navegador Firefox Developer Editon</h6>
+<button onclick="location.href='https://analytics.google.com/analytics/web/template?uid=NqkwKRQ8S1GKnKCGuGJ74w'">ANALITICS</button>
+<button onclick="location.href='https://drive.google.com/drive/folders/1NBckfAizzomgLPn1BY5LTrQIQRSiBzKM?usp=sharing'">LINK DEL JUEGO</button>
+<button onclick="location.href='https://alejandramontenegro.com/tareas/bandera'">BANDERA JAMAICA</button>
+<style>
+    body{
+        background-color:#FFD933  ;
+    }
+</style>";s:12:"content_meta";N;}
