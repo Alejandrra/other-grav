@@ -12,6 +12,3 @@ media_order: slider_animation2.gif
         background-color: #C8FF33;
     }
 </style>
-
-
- 
