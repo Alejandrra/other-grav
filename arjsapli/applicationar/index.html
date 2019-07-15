@@ -1,0 +1,76 @@
+<!doctype HTML>
+<html>
+  <script src="https://aframe.io/releases/0.9.1/aframe.min.js"></script>
+  <script src="https://rawgit.com/jeromeetienne/AR.js/master/aframe/build/aframe-ar.min.js"></script>
+  <script src="https://rawgit.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js"></script>
+<body style='margin : 0px; overflow: hidden;' onload="ShowData()">
+  <a-scene embedded arjs>
+    <!--Marcador uno-->
+    <a-marker type = 'pattern'  url = 'static/paths/LAB1.patt'>
+      <a-text value=" 
+        Estado:  Ocupado 
+        Docente: Manuel Nevarez
+        Escuela: Sistemas
+        Horario: 8pm-10pm " rotation="-90 0 0" color="green" height="2.5" width="2.5" position='0 0.5 0'>
+      </a-text>
+    <a-plane color="#CCC" height="1" width="2" rotation="-90 0 0"></a-plane>
+    </a-marker>
+    <a-entity camera></a-entity>
+
+    <!--Marcador dos-->
+    <a-marker type = 'pattern'  url = 'static/paths/LAB2.patt'>
+      <div id="lab2"></div>
+      <a-text value=" 
+        Estado:  Ocupado 
+        Docente: Marc Grob
+        Escuela: Sistemas
+        Horario: 4pm-6pm " rotation="-90 0 0" color="green" height="2.5" width="2.5" position='0 0.5 0'>
+      </a-text>
+      <a-plane color="#CCC" height="1" width="2" rotation="-90 0 0"></a-plane>
+    </a-marker>
+    <a-entity camera></a-entity>
+
+    <!--Marcador tres-->
+    <a-marker type = 'pattern'  url = 'static/paths/LAB3.patt'>
+      <a-text value=" 
+      Estado:  Ocupado 
+      Docente: Susana Patino
+      Escuela: Sistemas
+      Horario: 6pm-8pm " rotation="-90 0 0" color="green" height="2.5" width="2.5" position='0 0.5 0'>
+    </a-text>
+    <a-plane color="#CCC" height="1" width="2" rotation="-90 0 0"></a-plane>
+    </a-marker>
+    <a-entity camera></a-entity>
+  </a-scene>
+
+  <script>
+    function ShowData() {
+      let lab = 'Lab2';
+      let parameters = 'lab=' + lab; 
+      var xhr = new XMLHttpRequest();
+      xhr.onreadystatechange = function () {
+        if (this.readyState == 4 && this.status == 200) {
+          var result = JSON.parse(this.response);
+            console.log(result);
+          let marker = document.getElementById('lab2');
+          let div = document.createElement('div');
+          div.innerHTML = `
+            <a-text value=" 
+            Estado:  Ocupado 
+            Docente: ${result.nombre}
+            Escuela: ${result.carrera}
+            Horario: ${result.horario} " rotation="-90 0 0" color="green" height="2.5" width="2.5" position='0 0.5 0'>
+            </a-text>`
+          ;
+           marker.appendChild(div);
+          }
+        };
+        xhr.open("POST", "https://webhooks.mongodb-stitch.com/api/client/v2.0/app/testapp-usprt/service/Create/incoming_webhook/read", true);
+        xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+        xhr.send(parameters);
+      }
+
+  </script>
+  <!-- <script src="/static/js/conexion.js"></script>-->
+</body>
+</html>
