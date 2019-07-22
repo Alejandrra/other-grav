@@ -10,4 +10,7 @@ media_order: 'pattern-laboratorio 1.png,pattern-laboratorio 2.png,pattern-laboea
 ![](pattern-laboeatorio%203.png)
 
 
+<p><center><a href="https://alejandramontenegro.com/realidad/virual/index.html" target="_blank" rel="nofollow noopener noreferrer" class="external-link no-image">
+  <strong>clic</strong>
+</a></center></p>
 
