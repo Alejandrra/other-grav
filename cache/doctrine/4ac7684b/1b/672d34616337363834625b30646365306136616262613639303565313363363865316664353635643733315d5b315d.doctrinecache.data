@@ -1,0 +1,133 @@
+1564140166
+a:2:{s:7:"content";s:8163:"<p><time class="dt-published" datetime="2019-06-19T12:22:58-08:00">
+<i class="fa fa-calendar"></i> 19th Jun 2019
+</time></p>
+<p><img alt="" src="/user/pages/03.temas/01.analisis-de-frameworks-juegos/GD-logo-big.png" /></p>
+<h6>Gdevelop</h6>
+<ul>
+<li>GDevelop es un creador de juegos </li>
+<li>Código abierto</li>
+<li>Multiplataforma   </li>
+<li>Permite desarrollar juegos en HTML5 </li>
+<li>No requiere tener conocimientos de programación</li>
+<li>Funciona en formato de ejecutable como Windos o Mac</li>
+<li>Es fácil de usar y lo suficientemente potente como para usuarios avanzados</li>
+</ul>
+<h6>Para que sirve?</h6>
+<p>Sirve para crear juegos en 2D con una facilidad impresionante, sin necesidad de conocer ningún lenguaje de programación y lo mejor de todo, es que el juego que se crea estará perfectamente personalizado para cumplir los requerimientos del creador.</p>
+<p><center><a href="https://www.ecured.cu/Game_Develop" target="_blank" rel="nofollow noopener noreferrer" class="external-link no-image">
+  <strong>Mas informacion da clic</strong>
+</a></center></p>
+<p><center><a href="https://fr.wikipedia.org/wiki/GDevelop" target="_blank" rel="nofollow noopener noreferrer" class="external-link no-image">
+  <strong>Mas informacion da clic</strong>
+</a></center></p>
+<h6>Ventajas y desventaja en Jump &amp; Run</h6>
+<h6>Ventajas</h6>
+<ul>
+<li>Gran parte de su documentación es en español</li>
+<li>Se puede utilizar en Linux</li>
+<li>Crea juegos para dispositivos móviles</li>
+</ul>
+<h6>Desventajas</h6>
+<ul>
+<li>Pesa mucho los programas</li>
+</ul>
+<p><img alt="" src="/user/pages/03.temas/01.analisis-de-frameworks-juegos/images (3).png" /></p>
+<h6>PixiJS</h6>
+<p>Pixi es un motor de renderizado 2D muy potente, lo que significa que te ayuda a mostrar y animar gráficos interactivos, lo que facilita la creación de juegos en javascript y HTML5.</p>
+<h6>Para que sirve?</h6>
+<p>Sirve para describir el diseño del juego en un gráfico de escena, y un representador, que realmente dibuja los elementos en la fase a la pantalla mediante el elemento canvas o WebGL. Incorpora Sprites que son basicamente imágenes que se pueden controlar con código, se puede controlar su tamaño posición y otras propiedades que lo hacen muy útil para hacer gráficos interactivos y animados. Saber utilizar los sprites es una de las cosas más importantes a la hora de desarrollar juegos con Pixi.</p>
+<p>Este framework nos permite tres formas de crear los sprite:</p>
+<ul>
+<li>A partir de una imagen.</li>
+<li>A partir de una sub-imagen de un conjuto de imagenes denominado tileset(contiene todas las imágenes que necesitamos en nuestro juego).</li>
+<li>A partir de una textura atlas(un fichero JSON que define el tamñano y la posición de una imagen en un tileset).</li>
+</ul>
+<p><center><a href="https://ull-esit-sytw-1617.github.io/presentaciones-todos/juegos-en-js/pixijs.html" target="_blank" rel="nofollow noopener noreferrer" class="external-link no-image">
+  <strong>Mas informacion da clic</strong>
+</a></center></p>
+<p><center><a href="https://www.pixijs.com/" target="_blank" rel="nofollow noopener noreferrer" class="external-link no-image">
+  <strong>Link de descarga</strong>
+</a></center></p>
+<h6>Ventajas y desventaja en Jump &amp; Run</h6>
+<h6>Ventajas</h6>
+<ul>
+<li>Tiene mayor cantidad de visitas en sus repositorios y si le estan dando mantenimiento</li>
+<li>Open Source.</li>
+<li>Gran comunidad</li>
+<li>Actualización diaria de ejemplos y nuevos juegos.</li>
+<li>Responsive.</li>
+<li>Facilidad de crear un juego en muy poco tiempo.</li>
+<li>Sistema de plugins.</li>
+<li>Todas las herramientas disponibles.</li>
+<li>Potente</li>
+</ul>
+<h6>Desventajas</h6>
+<ul>
+<li>Alguna herramienta tiene algún pequeño error.</li>
+<li>Se puede quedar pequeño, dependiendo de la ambición del proyecto.</li>
+</ul>
+<p><img alt="" src="/user/pages/03.temas/01.analisis-de-frameworks-juegos/header.jpg" /></p>
+<h6>Phaser</h6>
+<p>Es un marco de juego 2D de codigo abierto para hacer juegos HTML5 para computadoras y móviles, que es desarrollado por Photon Storm.Los juegos se pueden compilar para iOS, Android y aplicaciones de escritorio nativas.Phaser tiene alto desarrollo con un paquete excelente y multiples herramientas que pueden ayudar a completar el desarrollo del juego de manera extremadamente rápida.</p>
+<h6>Para que sirve?</h6>
+<p>Pixi es una gran biblioteca de renderización rápida que se centra en Canvas y WebGL y sirve una serie de herramientas que acelerarán el desarrollo y te ayudaran a manejar las tareas genéricas necesarias para completar tu juego, para que así puedas concentrarte en la idea del juego en sí.</p>
+<p><center><a href="https://gamedevelopment.tutsplus.com/es/articles/how-to-learn-the-phaser-html5-game-engine--gamedev-13643" target="_blank" rel="nofollow noopener noreferrer" class="external-link no-image">
+  <strong>Mas informacion da clic</strong>
+</a></center></p>
+<p><center><a href="http://phaser.io//" target="_blank" rel="nofollow noopener noreferrer" class="external-link no-image">
+  <strong>Link de descarga</strong>
+</a></center></p>
+<h6>Ventajas y desventaja en Jump &amp; Run</h6>
+<h6>Ventajas</h6>
+<ul>
+<li>Open Source</li>
+<li>La pre-carga de archivos</li>
+<li>Un editor visual para la creación facil de juegos</li>
+<li>Es un buen framework, orientado principalmente a usuarios con conocimientos intermedios </li>
+</ul>
+<h6>Desventajas</h6>
+<ul>
+<li>No es del todo intuitivo el editor visual</li>
+</ul>
+<p><img alt="" src="/user/pages/03.temas/01.analisis-de-frameworks-juegos/descarga.jpg" /></p>
+<h6>melonJS</h6>
+<p>MelonJS es un motor de juegos HTML5 de código abierto que permite a los desarrolladores y diseñadores centrarse en el contenido, ademas carga de mapa de página sin comprimir, Base64, CSV y JSON codificada XML</p>
+<h6>Para que sirve?</h6>
+<p>melonJS sirve para integrar el popular formato de mapa en mosaico, lo que permite a los diseñadores crear niveles fácilmente con el editor de mapas en mosaico, y centrarse en las características del juego en sí.</p>
+<p><center><a href="https://www.javascripting.com/view/melonjs" target="_blank" rel="nofollow noopener noreferrer" class="external-link no-image">
+  <strong>Mas informacion da clic</strong>
+</a></center></p>
+<p><center><a href="http://www.melonjs.org/" target="_blank" rel="nofollow noopener noreferrer" class="external-link no-image">
+  <strong>Link de descarga</strong>
+</a></center></p>
+<h6>Ventajas y desventaja en Jump &amp; Run</h6>
+<h6>Ventajas</h6>
+<ul>
+<li>No tiene mucho mantenimiento</li>
+<li>Rapido</li>
+<li>Ligero</li>
+</ul>
+<h6>Desventajas</h6>
+<ul>
+<li>No tiene muchas herramientas para el control de interfaces.</li>
+</ul>
+<p><img alt="" src="/user/pages/03.temas/01.analisis-de-frameworks-juegos/images (1).png" /></p>
+<h6>Babylon</h6>
+<p>Es un motor 3D en tiempo real que utiliza una biblioteca de JavaScript para mostrar gráficos 3D en un navegador web a través de HTML5 .Es bien conocido que WebGL requiere de muchas líneas de código para el despliegue de primitivas 3D dentro de una escena. </p>
+<h6>Para que sirve?</h6>
+<p>Con WebGL  sirve para adquirir capacidades 3D al elemento Canvas para la mayoría de los navegadores, una de las herramientas 3D más interesantes, pero al mismo tiempo nada fácil de usar. Por ejemplo, para crear un juego se necesitan muchísimas capacidades adicionales como detección de colisiones, partículas y muchos efectos especiales, y todas estas cosas son las que han creado los programadores de Microsoft con Babylon.js.</p>
+<p><center><a href="http://html5facil.com/tips/babylon-js-motor-3d-basado-en-webgl-y-javascript/" target="_blank" rel="nofollow noopener noreferrer" class="external-link no-image">
+  <strong>Mas informacion da clic</strong>
+</a></center></p>
+<p><center><a href="https://www.babylonjs.com//" target="_blank" rel="nofollow noopener noreferrer" class="external-link no-image">
+  <strong>Link de descarga</strong>
+</a></center></p>
+<h6>Ventajas y desventaja en Jump &amp; Run</h6>
+<h6>Ventajas</h6>
+<ul>
+<li>Rapido</li>
+<li>Sus programas son viables
+<h6>Desventajas</h6></li>
+<li>No tiene mucho mantenimiento</li>
+</ul>";s:12:"content_meta";N;}
