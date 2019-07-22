@@ -2,9 +2,9 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/var/www/html/grav/user/data/feed/20416b3fd83b2d28769e0672bfe05a2f.yaml',
-    'modified' => 1562731403,
+    'modified' => 1563226099,
     'data' => [
-        'last_checked' => 1562731403,
+        'last_checked' => 1563226099,
         'data' => [
             0 => [
                 'title' => 'Grav 1.6 Released!',
@@ -34,7 +34,7 @@ return [
                 'title' => 'RocketTheme\'s Halloween Sale is Going on Right Now',
                 'url' => 'https://getgrav.org/blog/rockettheme-halloween-2018',
                 'date' => 1540792800,
-                'nicetime' => '8 meses antes'
+                'nicetime' => '9 meses antes'
             ],
             5 => [
                 'title' => 'Git-Sync 2.0',
@@ -58,13 +58,13 @@ return [
                 'title' => 'macOS 10.14 Mojave Apache Setup: Upgrading Homebrew',
                 'url' => 'https://getgrav.org/blog/macos-mojave-apache-upgrade-homebrew',
                 'date' => 1537876800,
-                'nicetime' => '9 meses antes'
+                'nicetime' => '10 meses antes'
             ],
             9 => [
                 'title' => 'macOS 10.14 Mojave Apache Setup: SSL',
                 'url' => 'https://getgrav.org/blog/macos-mojave-apache-ssl',
                 'date' => 1537873380,
-                'nicetime' => '9 meses antes'
+                'nicetime' => '10 meses antes'
             ]
         ]
     ]
