@@ -3,6 +3,11 @@ title: 'Frameworks para SPA'
 media_order: 'img_opt.jpg,maxresdefault_opt.jpg,react.jpg,angular.jpg,vue.jpg'
 ---
 
+<time class="dt-published" datetime="2019-07-22T11:00:18:00:00">
+  <i class="fa fa-calendar"></i> 22th Jul 2019
+    </time>
+    
+
 ![](img_opt.jpg)
 
 Hoy en dia los desarrolladores web buscan una comodidad mas eficiente y que sea rapida la hora de levantar una pagina que sea mas eficiente y rapida y muchas veces nos cuesta programar y poderlo plantear de esa forma pero ahora es posible hacerlo realidad.Como? Usando Frameworks que trabajen con SPA, aqui especificaremos 3 de ellos que son :
@@ -72,6 +77,6 @@ A continuacion te mostrare ejemplos usando las 3 herramientas mencionadas anteri
 ![](vue.jpg)
 
 Tambien te dejo el archivo IEE si quieres descargarlo, espero que sea de tu agrado.
-<p><a href="/inicio/frameworks-para-spa/Informe SPA frameworks.doc">Informe SPA frameworks.doc</a></p>
+<p><a href="https://drive.google.com/drive/folders/15uWJ0TCy0HNhwQ9XgFQ4kGOYCInIUIWi?usp=sharing">SPA frameworks </a></p>
 
 
