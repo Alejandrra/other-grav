@@ -2,9 +2,9 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/var/www/html/grav/user/data/feed/20416b3fd83b2d28769e0672bfe05a2f.yaml',
-    'modified' => 1564583669,
+    'modified' => 1564632998,
     'data' => [
-        'last_checked' => 1564583669,
+        'last_checked' => 1564632998,
         'data' => [
             0 => [
                 'title' => 'Grav 1.6 Released!',
@@ -40,7 +40,7 @@ return [
                 'title' => 'Git-Sync 2.0',
                 'url' => 'https://getgrav.org/blog/git-sync-2.0',
                 'date' => 1539604800,
-                'nicetime' => '9 meses antes'
+                'nicetime' => '10 meses antes'
             ],
             6 => [
                 'title' => 'Vote for Grav in the 2018 CMS Critic People\'s Choice Awards',

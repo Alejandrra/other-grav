@@ -1,0 +1,24 @@
+1565241310
+a:2:{s:7:"content";s:1174:"<p>Se realizara un determinado proyecto que consiste en que tu puedas observar desde tu telefono estudiantes y docentes que esten ocupando determinado laboratorio, saber sus horarios de clases o saber en tiempo se encuentran y tambien habra una parte de autodentificacion para que el estudiantes y docente se registre  y puedan observar especificacion que materias o aulas le toca a ese estudiante en caso del docente saber el aula su materia y hora que le toca. Para ello se utilizara REALIDAD AUMENTADA que se conectara a una api que estara bajo React.js.
+En base a como se lo desarrollara son las siguientes:</p>
+<h6>Para frontend</h6>
+<ul>
+<li>React js para  ejercer el SPA.</li>
+<li>Bostrap para el diseño de interfaces para hacerlo mas personalizado</li>
+<li>Ar.js para la genereacion de marcadores para la realidad aumentada.</li>
+</ul>
+<h6>Para el bankends:</h6>
+<ul>
+<li>Expresss para el desarrollo de los API</li>
+<li>Firebase para la base de datos.</li>
+<li>Generacion de marcadores</li>
+<li>Reportes</li>
+<li>Generacion de Usuarios</li>
+</ul>
+<h6>Roles:</h6>
+<ul>
+<li>Estudiante</li>
+<li>Docente</li>
+<li>Coordinador de carrera</li>
+<li>Administrador</li>
+</ul>";s:12:"content_meta";N;}
